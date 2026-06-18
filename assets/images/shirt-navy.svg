@@ -1,0 +1,44 @@
+<!-- Premium navy shirt mockup on warm neutral background -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Custom navy polo shirt with embroidered logo">
+  <defs>
+    <linearGradient id="bgNavy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F4ECD8"/>
+      <stop offset="100%" stop-color="#E8D5A8"/>
+    </linearGradient>
+    <linearGradient id="shirtNavy" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0E2A47"/>
+      <stop offset="100%" stop-color="#08203A"/>
+    </linearGradient>
+    <radialGradient id="shadowN" cx="0.5" cy="0.55" r="0.55">
+      <stop offset="0%" stop-color="#000" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgNavy)"/>
+  <ellipse cx="400" cy="780" rx="280" ry="40" fill="url(#shadowN)"/>
+  <!-- Shirt body -->
+  <path d="M200,260 L280,210 L320,200 Q400,180 480,200 L520,210 L600,260 L660,340 L600,380 L600,820 L200,820 L200,380 L140,340 Z" fill="url(#shirtNavy)"/>
+  <!-- Collar -->
+  <path d="M320,200 L400,260 L480,200 L460,250 L400,300 L340,250 Z" fill="#0A1F36"/>
+  <!-- Placket -->
+  <line x1="400" y1="260" x2="400" y2="500" stroke="#1B3A5C" stroke-width="3"/>
+  <circle cx="400" cy="320" r="4" fill="#C8A45A"/>
+  <circle cx="400" cy="380" r="4" fill="#C8A45A"/>
+  <circle cx="400" cy="440" r="4" fill="#C8A45A"/>
+  <!-- Sleeve highlights -->
+  <path d="M200,260 L140,340 L200,380 Z" fill="#0A1F36" opacity="0.4"/>
+  <path d="M600,260 L660,340 L600,380 Z" fill="#0A1F36" opacity="0.4"/>
+  <!-- Chest embroidery -->
+  <g transform="translate(330,420)">
+    <circle r="32" fill="none" stroke="#C8A45A" stroke-width="2" opacity="0.9"/>
+    <text x="0" y="-4" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-style="italic" fill="#C8A45A" font-weight="500">Atelier</text>
+    <text x="0" y="14" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" letter-spacing="2" fill="#C8A45A">EST · 2018</text>
+  </g>
+  <!-- Fabric texture lines -->
+  <g opacity="0.08" stroke="#fff" stroke-width="0.5" fill="none">
+    <path d="M200,500 Q400,520 600,500"/>
+    <path d="M200,560 Q400,580 600,560"/>
+    <path d="M200,620 Q400,640 600,620"/>
+    <path d="M200,680 Q400,700 600,680"/>
+  </g>
+</svg>

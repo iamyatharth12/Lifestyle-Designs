@@ -1,0 +1,31 @@
+<!-- Personalization – mug mockup -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Personalized ceramic mug with custom print">
+  <defs>
+    <linearGradient id="bgPersonal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F8F1E3"/>
+      <stop offset="100%" stop-color="#E0D2B0"/>
+    </linearGradient>
+    <linearGradient id="mugBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#D8D8DC"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgPersonal)"/>
+  <ellipse cx="400" cy="820" rx="220" ry="22" fill="#000" opacity="0.12"/>
+  <!-- Mug -->
+  <path d="M270,300 L530,300 L520,800 Q400,830 280,800 Z" fill="url(#mugBody)"/>
+  <!-- Top rim -->
+  <ellipse cx="400" cy="300" rx="130" ry="22" fill="#FFFFFF" stroke="#C8C8CE" stroke-width="2"/>
+  <ellipse cx="400" cy="300" rx="110" ry="14" fill="#1A1A20"/>
+  <!-- Handle -->
+  <path d="M530,400 Q650,400 650,500 Q650,600 530,600" fill="none" stroke="#FFFFFF" stroke-width="28" stroke-linecap="round"/>
+  <path d="M530,400 Q650,400 650,500 Q650,600 530,600" fill="none" stroke="#C8C8CE" stroke-width="1.5"/>
+  <path d="M540,420 Q625,420 625,500 Q625,580 540,580" fill="url(#bgPersonal)"/>
+  <!-- Personalization -->
+  <g transform="translate(400,540)">
+    <text x="0" y="-10" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="22" fill="#0B0B0F">For Ananya,</text>
+    <text x="0" y="20" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="22" fill="#0B0B0F">with love</text>
+    <line x1="-30" y1="36" x2="30" y2="36" stroke="#C8A45A" stroke-width="1"/>
+    <text x="0" y="56" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" letter-spacing="3" fill="#6B6B78">· EST 2024 ·</text>
+  </g>
+</svg>

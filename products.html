@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products — Lifestyle Designs | Custom Uniforms, Apparel &amp; Bags</title>
+  <meta name="description" content="Explore our premium collections: corporate uniforms, school uniforms, custom t-shirts, event merchandise, printed bags and personalized products." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400&display=swap" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+<!-- ============================ NAVIGATION ============================ -->
+<nav class="nav" aria-label="Primary">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo"><span class="nav__logo-mark">L</span><span>Lifestyle <span style="font-family:var(--font-display); font-style:italic; font-weight:400">Designs</span></span></a>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html" class="is-active">Products</a></li>
+      <li><a href="process.html">Custom Process</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="contact.html" class="btn btn--primary magnetic">Start your project <span class="arrow">→</span></a>
+      <button class="nav__menu-btn" aria-label="Open menu"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+</nav>
+
+<div class="drawer">
+  <div class="drawer__head">
+    <span class="nav__logo"><span class="nav__logo-mark">L</span><span>Lifestyle Designs</span></span>
+    <button class="drawer__close" aria-label="Close menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M6 18L18 6"/></svg></button>
+  </div>
+  <ul class="drawer__list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="process.html">Custom Process</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="testimonials.html">Testimonials</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="drawer__footer"><p>hello@lifestyledesigns.in<br>+91 98XXX XXXXX</p></div>
+</div>
+
+<!-- ============================ PAGE HERO ============================ -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero__inner">
+      <div>
+        <div class="page-hero__crumb reveal">
+          <a href="index.html">Home</a><span>/</span><span>Collections</span>
+        </div>
+        <h1 class="page-hero__title reveal" data-reveal-delay="100">Every collection, <span class="serif-italic" style="color:var(--brand)">tailored to you.</span></h1>
+      </div>
+      <p class="lede reveal" data-reveal-delay="200">From the uniforms your team wears every day to the gift someone opens once and remembers forever — explore the categories we pour our craft into.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FILTERS ============================ -->
+<section class="section--tight">
+  <div class="container">
+    <div class="filters reveal">
+      <button class="filter is-active" data-filter="all">All collections</button>
+      <button class="filter" data-filter="corporate">Corporate</button>
+      <button class="filter" data-filter="school">School</button>
+      <button class="filter" data-filter="apparel">Apparel</button>
+      <button class="filter" data-filter="events">Events</button>
+      <button class="filter" data-filter="bags">Bags</button>
+      <button class="filter" data-filter="gifts">Gifts</button>
+    </div>
+
+    <div class="products">
+      <article class="product product--lg reveal" id="corporate" data-cat="corporate">
+        <div class="product__img"><img src="assets/images/uniform-corporate.svg" alt="Corporate uniform blazer" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">01</span>
+          <h3 class="product__title">Corporate Uniforms</h3>
+          <p class="product__meta">Polos · Blazers · Hospitality · Front-of-house</p>
+          <p style="font-size:0.9rem; color:rgba(255,255,255,0.85); margin-top:0.4rem;">200–240 GSM combed cotton, fully embroidered logos, Pantone-matched trims.</p>
+          <a href="contact.html" class="product__link">Request a quote <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--md reveal" data-reveal-delay="100" id="school" data-cat="school">
+        <div class="product__img"><img src="assets/images/uniform-school.svg" alt="School uniform polo" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">02</span>
+          <h3 class="product__title">School Uniforms</h3>
+          <p class="product__meta">Polos · Crests · House colours</p>
+          <p style="font-size:0.9rem; color:rgba(255,255,255,0.85); margin-top:0.4rem;">Durable, colour-fast, comfortable. Built for the playground and the classroom.</p>
+          <a href="contact.html" class="product__link">Request a quote <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--half reveal" id="tshirts" data-cat="apparel">
+        <div class="product__img"><img src="assets/images/tee-white.svg" alt="Custom printed t-shirts" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">03</span>
+          <h3 class="product__title">Custom T-Shirts</h3>
+          <p class="product__meta">DTG · Screen print · Discharge inks</p>
+          <p style="font-size:0.9rem; color:rgba(255,255,255,0.85); margin-top:0.4rem;">From a single statement tee to a 5,000-piece brand rollout. Crisp colour, soft hand-feel.</p>
+          <a href="contact.html" class="product__link">Request a quote <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--half reveal" data-reveal-delay="100" id="events" data-cat="events">
+        <div class="product__img"><img src="assets/images/event-merch.svg" alt="Event merchandise" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">04</span>
+          <h3 class="product__title">Event Merchandise</h3>
+          <p class="product__meta">Concerts · Marathons · Conferences · Festivals</p>
+          <p style="font-size:0.9rem; color:rgba(255,255,255,0.85); margin-top:0.4rem;">Tight deadlines, large volumes, zero margin for error. We've done this for a decade.</p>
+          <a href="contact.html" class="product__link">Request a quote <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--third reveal" id="bags" data-cat="bags">
+        <div class="product__img"><img src="assets/images/bag-canvas.svg" alt="Printed canvas bag" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">05</span>
+          <h3 class="product__title">Printed Bags</h3>
+          <p class="product__meta">Tote · Drawstring · Pouches · Duffel</p>
+          <p style="font-size:0.9rem; color:rgba(255,255,255,0.85); margin-top:0.4rem;">12 oz natural canvas, screen-printed or embroidered. Heavy-duty stitching and reinforced handles.</p>
+          <a href="contact.html" class="product__link">Request a quote <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--third reveal" data-reveal-delay="100" data-cat="apparel">
+        <div class="product__img"><img src="assets/images/portfolio-hoodies.svg" alt="Custom hoodies" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">06</span>
+          <h3 class="product__title">Hoodies &amp; Sweats</h3>
+          <p class="product__meta">Heavyweight fleece · Embroidered crests</p>
+          <p style="font-size:0.9rem; color:rgba(255,255,255,0.85); margin-top:0.4rem;">400 GSM brushed fleece, double-stitched seams, premium YKK hardware.</p>
+          <a href="contact.html" class="product__link">Request a quote <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--third reveal" data-reveal-delay="200" id="gifts" data-cat="gifts">
+        <div class="product__img"><img src="assets/images/personalized-mug.svg" alt="Personalized mug" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">07</span>
+          <h3 class="product__title">Personalized Gifts</h3>
+          <p class="product__meta">Mugs · Caps · Stationery · Keepsakes</p>
+          <p style="font-size:0.9rem; color:rgba(255,255,255,0.85); margin-top:0.4rem;">A name, a date, a message. Individually crafted to mark a moment.</p>
+          <a href="contact.html" class="product__link">Request a quote <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ MATERIALS ============================ -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" style="color:#C8A45A">The materials we use</span>
+      <h2 class="section-head__title" style="color:#fff">Premium inputs, <span class="accent" style="color:#C8A45A; font-style:italic">honest pricing.</span></h2>
+      <p class="lede" style="color:#B9B9C4">No mystery blends, no surprise stock — every garment starts with fabric and trim we have personally inspected.</p>
+    </div>
+
+    <div class="products" style="grid-auto-rows: 320px;">
+      <article class="product product--third reveal" style="min-height:320px">
+        <div class="product__img"><img src="assets/images/portfolio-swatches.svg" alt="Fabric swatches" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">Cotton</span>
+          <h3 class="product__title">180–240 GSM Combed</h3>
+          <p style="font-size:0.85rem; color:rgba(255,255,255,0.85);">Soft hand-feel. Holds print colour for years.</p>
+        </div>
+      </article>
+      <article class="product product--third reveal" data-reveal-delay="100" style="min-height:320px">
+        <div class="product__img"><img src="assets/images/portfolio-stack.svg" alt="Folded apparel" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">Fleece</span>
+          <h3 class="product__title">400 GSM Brushed</h3>
+          <p style="font-size:0.85rem; color:rgba(255,255,255,0.85);">Heavy, warm, made for embroidered crests.</p>
+        </div>
+      </article>
+      <article class="product product--third reveal" data-reveal-delay="200" style="min-height:320px">
+        <div class="product__img"><img src="assets/images/embroidery-detail.svg" alt="Embroidery detail" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">Embroidery</span>
+          <h3 class="product__title">8,000 SPM Machines</h3>
+          <p style="font-size:0.85rem; color:rgba(255,255,255,0.85);">Crisp, raised, made-to-last thread work.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CTA ============================ -->
+<section class="section">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <div>
+        <span class="eyebrow" style="color:#C8A45A">Let's build something</span>
+        <h2 style="margin-top:1rem; font-size: clamp(2rem, 4vw, 3rem)">Not sure which collection fits?</h2>
+        <p style="margin-top:1rem; max-width: 50ch;">Send us a short brief — quantity, timeline, brand colours — and we'll recommend the right fabric, fit and finish.</p>
+      </div>
+      <div class="cta-banner__ctas">
+        <a href="contact.html" class="btn btn--accent btn--lg magnetic">Talk to our studio <span class="arrow">→</span></a>
+        <a href="process.html" class="btn btn--ghost btn--lg" style="border-color:rgba(255,255,255,0.18); color:#fff">See our process</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand"><span class="nav__logo-mark" style="background:#fff; color:var(--ink)">L</span><span>Lifestyle Designs</span></div>
+        <p class="footer__about">A boutique customization studio crafting premium uniforms, printed apparel, and personalized products for businesses, schools and individuals.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h2.5l.5-3H13V9c0-.9.3-1.5 1.6-1.5H16V5h-2.4C11.4 5 10 6.3 10 8.6V11H8v3h2v8h3z"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 003.6 17.4L2 22l4.7-1.5A11 11 0 1020.5 3.5zM12 20a8 8 0 01-4.1-1.1l-.3-.2-2.8.9.9-2.7-.2-.3A8 8 0 1112 20zm4.6-6c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1A6.4 6.4 0 018.6 13a6 6 0 01-1.3-1.6c-.1-.2 0-.4.1-.6l.5-.6c.2-.2.2-.3.3-.5 0-.2 0-.4-.1-.5l-1-2.2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5 0-.7.3a3 3 0 00-.9 2.2c0 1.3 1 2.5 1.1 2.7.1.2 2 3 4.8 4.2 1.7.7 2.4.7 3.3.6.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.2-.2-.3-.5-.4z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer__col"><h5>Studio</h5><ul><li><a href="about.html">About us</a></li><li><a href="process.html">Custom process</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="testimonials.html">Testimonials</a></li></ul></div>
+      <div class="footer__col"><h5>Collections</h5><ul><li><a href="products.html#corporate">Corporate uniforms</a></li><li><a href="products.html#school">School uniforms</a></li><li><a href="products.html#tshirts">Custom t-shirts</a></li><li><a href="products.html#bags">Printed bags</a></li><li><a href="products.html#events">Event merchandise</a></li></ul></div>
+      <div class="footer__col"><h5>Contact</h5><ul><li>hello@lifestyledesigns.in</li><li>+91 98XXX XXXXX</li><li>Studio No. 14, Indiranagar</li><li>Bengaluru, India</li></ul></div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Lifestyle Designs. All rights reserved.</span>
+      <span>Crafted in Bengaluru · Shipped worldwide</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/919800000000" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 003.6 17.4L2 22l4.7-1.5A11 11 0 1020.5 3.5zM12 20a8 8 0 01-4.1-1.1l-.3-.2-2.8.9.9-2.7-.2-.3A8 8 0 1112 20zm4.6-6c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1A6.4 6.4 0 018.6 13a6 6 0 01-1.3-1.6c-.1-.2 0-.4.1-.6l.5-.6c.2-.2.2-.3.3-.5 0-.2 0-.4-.1-.5l-1-2.2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5 0-.7.3a3 3 0 00-.9 2.2c0 1.3 1 2.5 1.1 2.7.1.2 2 3 4.8 4.2 1.7.7 2.4.7 3.3.6.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.2-.2-.3-.5-.4z"/></svg></a>
+<script src="js/app.js"></script>
+</body>
+</html>

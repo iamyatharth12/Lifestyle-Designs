@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Wide shot of finished custom apparel on display">
+  <defs>
+    <linearGradient id="bgD" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1A1A22"/><stop offset="100%" stop-color="#0B0B0F"/></linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bgD)"/>
+  <!-- Hanging rod -->
+  <line x1="100" y1="180" x2="1500" y2="180" stroke="#C8A45A" stroke-width="2"/>
+  <!-- Hangers + garments -->
+  <g transform="translate(200,180)">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#888"/>
+    <path d="M-30,40 L30,40 L20,50 L-20,50 Z" fill="#888"/>
+    <path d="M-90,60 L-50,40 L-20,50 Q0,45 20,50 L50,40 L90,60 L130,140 L100,160 L100,640 L-100,640 L-100,160 L-130,140 Z" fill="#0E2A47"/>
+    <text x="0" y="350" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="28" fill="#C8A45A">Hôtel</text>
+    <text x="0" y="385" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" letter-spacing="6" fill="#fff">DE PROVENCE</text>
+  </g>
+  <g transform="translate(500,180)">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#888"/>
+    <path d="M-30,40 L30,40 L20,50 L-20,50 Z" fill="#888"/>
+    <path d="M-90,60 L-50,40 L-20,50 Q0,45 20,50 L50,40 L90,60 L130,140 L100,160 L100,640 L-100,640 L-100,160 L-130,140 Z" fill="#FFFFFF"/>
+    <text x="0" y="350" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="42" fill="#0B0B0F">COAST</text>
+  </g>
+  <g transform="translate(800,180)">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#888"/>
+    <path d="M-30,40 L30,40 L20,50 L-20,50 Z" fill="#888"/>
+    <path d="M-90,60 L-50,40 L-20,50 Q0,45 20,50 L50,40 L90,60 L130,140 L100,160 L100,640 L-100,640 L-100,160 L-130,140 Z" fill="#7A1F2B"/>
+    <circle cx="0" cy="340" r="55" fill="none" stroke="#C8A45A" stroke-width="2"/>
+    <text x="0" y="335" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="22" fill="#C8A45A">St.</text>
+    <text x="0" y="362" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="22" fill="#C8A45A">Andrew's</text>
+  </g>
+  <g transform="translate(1100,180)">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#888"/>
+    <path d="M-30,40 L30,40 L20,50 L-20,50 Z" fill="#888"/>
+    <path d="M-90,60 L-50,40 L-20,50 Q0,45 20,50 L50,40 L90,60 L130,140 L100,160 L100,640 L-100,640 L-100,160 L-130,140 Z" fill="#0F2A1F"/>
+    <text x="0" y="340" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="38" fill="#C8A45A">RUN</text>
+    <text x="0" y="385" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="38" fill="#C8A45A">10K</text>
+  </g>
+  <g transform="translate(1400,180)">
+    <line x1="0" y1="0" x2="0" y2="40" stroke="#888"/>
+    <path d="M-30,40 L30,40 L20,50 L-20,50 Z" fill="#888"/>
+    <path d="M-90,60 L-50,40 L-20,50 Q0,45 20,50 L50,40 L90,60 L130,140 L100,160 L100,640 L-100,640 L-100,160 L-130,140 Z" fill="#C8A45A"/>
+    <text x="0" y="350" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="36" fill="#0B0B0F" font-weight="700">Limited</text>
+    <text x="0" y="380" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" letter-spacing="4" fill="#0B0B0F">DROP · 04</text>
+  </g>
+</svg>

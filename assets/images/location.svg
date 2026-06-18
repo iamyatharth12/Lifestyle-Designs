@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Boutique studio location">
+  <defs>
+    <linearGradient id="bgLoc" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#F2EAD6"/><stop offset="100%" stop-color="#D8C49A"/></linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgLoc)"/>
+  <!-- Building facade -->
+  <rect x="100" y="100" width="600" height="350" fill="#FFFFFF" stroke="#0B0B0F" stroke-width="2"/>
+  <!-- Awning -->
+  <path d="M80,100 L720,100 L700,140 L100,140 Z" fill="#7A1F2B"/>
+  <g fill="#0B0B0F" opacity="0.18">
+    <rect x="100" y="100" width="60" height="40"/>
+    <rect x="220" y="100" width="60" height="40"/>
+    <rect x="340" y="100" width="60" height="40"/>
+    <rect x="460" y="100" width="60" height="40"/>
+    <rect x="580" y="100" width="60" height="40"/>
+  </g>
+  <text x="400" y="128" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="22" fill="#fff" font-weight="500">Lifestyle Designs · Since 2014</text>
+  <!-- Window -->
+  <rect x="150" y="180" width="500" height="180" fill="#0E2A47"/>
+  <line x1="400" y1="180" x2="400" y2="360" stroke="#C8A45A" stroke-width="2"/>
+  <line x1="150" y1="270" x2="650" y2="270" stroke="#C8A45A" stroke-width="2"/>
+  <!-- Mannequins -->
+  <g transform="translate(220,180)">
+    <circle cx="0" cy="20" r="10" fill="#F2EAD6"/>
+    <path d="M-15,35 L15,35 L25,180 L-25,180 Z" fill="#0B0B0F"/>
+  </g>
+  <g transform="translate(580,180)">
+    <circle cx="0" cy="20" r="10" fill="#F2EAD6"/>
+    <path d="M-15,35 L15,35 L25,180 L-25,180 Z" fill="#7A1F2B"/>
+  </g>
+  <!-- Door -->
+  <rect x="370" y="180" width="60" height="270" fill="#0B0B0F"/>
+  <circle cx="420" cy="320" r="2" fill="#C8A45A"/>
+  <!-- Sign -->
+  <rect x="280" y="60" width="240" height="32" fill="#FFFFFF" stroke="#0B0B0F" stroke-width="1"/>
+  <text x="400" y="82" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="18" fill="#0B0B0F">Lifestyle Designs</text>
+  <!-- Tree -->
+  <g transform="translate(60,420)">
+    <rect x="-3" y="-40" width="6" height="40" fill="#5A3F22"/>
+    <circle cx="0" cy="-50" r="22" fill="#0F2A1F"/>
+  </g>
+  <g transform="translate(750,420)">
+    <rect x="-3" y="-40" width="6" height="40" fill="#5A3F22"/>
+    <circle cx="0" cy="-50" r="22" fill="#0F2A1F"/>
+  </g>
+</svg>

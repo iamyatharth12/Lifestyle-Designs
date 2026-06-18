@@ -1,0 +1,42 @@
+<!-- White cotton t-shirt mockup with screen printed graphic -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="White t-shirt with custom screen-printed design">
+  <defs>
+    <linearGradient id="bgWhite" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EFEFEF"/>
+    </linearGradient>
+    <linearGradient id="shirtWhite" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FCFCFC"/>
+      <stop offset="100%" stop-color="#E2E2E6"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgWhite)"/>
+  <ellipse cx="400" cy="800" rx="260" ry="32" fill="#000" opacity="0.08"/>
+  <!-- Tee shape -->
+  <path d="M180,300 L260,240 L300,230 Q400,210 500,230 L540,240 L620,300 L690,380 L640,420 L640,830 L160,830 L160,420 L110,380 Z" fill="url(#shirtWhite)"/>
+  <!-- Neck rib -->
+  <path d="M300,230 Q400,275 500,230 L480,250 Q400,290 320,250 Z" fill="#D9D9DE"/>
+  <path d="M300,230 Q400,275 500,230" fill="none" stroke="#C7C7CD" stroke-width="1.5"/>
+  <!-- Sleeves -->
+  <path d="M180,300 L110,380 L160,420 Z" fill="#EAEAEE"/>
+  <path d="M620,300 L690,380 L640,420 Z" fill="#EAEAEE"/>
+  <!-- Sleeve hems -->
+  <line x1="110" y1="380" x2="160" y2="420" stroke="#C7C7CD" stroke-width="2"/>
+  <line x1="690" y1="380" x2="640" y2="420" stroke="#C7C7CD" stroke-width="2"/>
+  <!-- Bottom hem -->
+  <line x1="160" y1="820" x2="640" y2="820" stroke="#C7C7CD" stroke-width="2"/>
+  <!-- Print graphic - line art badge -->
+  <g transform="translate(400,490)" font-family="Georgia,serif" fill="#0B0B0F">
+    <circle r="80" fill="none" stroke="#0B0B0F" stroke-width="2"/>
+    <circle r="70" fill="none" stroke="#0B0B0F" stroke-width="1" stroke-dasharray="2 4"/>
+    <text x="0" y="-10" text-anchor="middle" font-size="18" font-style="italic">Northbound</text>
+    <text x="0" y="14" text-anchor="middle" font-size="9" letter-spacing="3" fill="#0B0B0F">CO. · STUDIO</text>
+    <text x="0" y="40" text-anchor="middle" font-size="8" letter-spacing="2" fill="#6B6B78">PORTLAND · EST 2014</text>
+  </g>
+  <!-- Fabric texture -->
+  <g opacity="0.06" stroke="#0B0B0F" stroke-width="0.5" fill="none">
+    <path d="M160,520 Q400,540 640,520"/>
+    <path d="M160,600 Q400,620 640,600"/>
+    <path d="M160,680 Q400,700 640,680"/>
+  </g>
+</svg>

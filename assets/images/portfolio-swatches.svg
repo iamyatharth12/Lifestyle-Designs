@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Color swatches and material samples">
+  <defs>
+    <linearGradient id="bgM" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#FAF7F0"/><stop offset="100%" stop-color="#E8E1D0"/></linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bgM)"/>
+  <g transform="translate(60,80)">
+    <!-- Fabric swatch cards -->
+    <g><rect width="220" height="280" fill="#0E2A47" rx="6"/><text x="110" y="252" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" letter-spacing="3" fill="#C8A45A">DEEP NAVY · 200 GSM</text></g>
+    <g transform="translate(240,0)"><rect width="220" height="280" fill="#7A1F2B" rx="6"/><text x="110" y="252" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" letter-spacing="3" fill="#fff">OXBLOOD · 180 GSM</text></g>
+    <g transform="translate(480,0)"><rect width="220" height="280" fill="#0F2A1F" rx="6"/><text x="110" y="252" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" letter-spacing="3" fill="#C8A45A">FOREST · 220 GSM</text></g>
+    <g transform="translate(0,300)"><rect width="220" height="280" fill="#FFFFFF" stroke="#D8D8DC" rx="6"/><text x="110" y="252" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" letter-spacing="3" fill="#0B0B0F">IVORY · 160 GSM</text></g>
+    <g transform="translate(240,300)"><rect width="220" height="280" fill="#C8A45A" rx="6"/><text x="110" y="252" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" letter-spacing="3" fill="#0B0B0F">SAFFRON GOLD</text></g>
+    <g transform="translate(480,300)"><rect width="220" height="280" fill="#1A1A20" rx="6"/><text x="110" y="252" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" letter-spacing="3" fill="#fff">INK · 240 GSM</text></g>
+  </g>
+</svg>

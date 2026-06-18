@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" role="img" aria-label="Lifestyle Designs monogram">
+  <circle cx="30" cy="30" r="28" fill="currentColor"/>
+  <circle cx="30" cy="30" r="26" fill="none" stroke="#C8A45A" stroke-width="0.8" opacity="0.7"/>
+  <text x="30" y="40" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="28" fill="white" font-weight="500">L</text>
+</svg>

@@ -1,0 +1,46 @@
+<!-- Tote bag mockup on linen background -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Canvas tote bag with custom printed design">
+  <defs>
+    <linearGradient id="bgLinen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFE7D6"/>
+      <stop offset="100%" stop-color="#D9CDB3"/>
+    </linearGradient>
+    <linearGradient id="bagCanvas" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2EBD9"/>
+      <stop offset="100%" stop-color="#E1D6B8"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgLinen)"/>
+  <ellipse cx="400" cy="880" rx="220" ry="24" fill="#000" opacity="0.12"/>
+  <!-- Handles -->
+  <path d="M300,180 Q320,80 400,80 Q480,80 500,180" fill="none" stroke="#C7B98F" stroke-width="10" stroke-linecap="round"/>
+  <!-- Bag body -->
+  <path d="M250,200 L550,200 L580,860 L220,860 Z" fill="url(#bagCanvas)"/>
+  <!-- Side shading -->
+  <path d="M550,200 L580,860 L560,860 L535,200 Z" fill="#000" opacity="0.08"/>
+  <path d="M250,200 L220,860 L240,860 L265,200 Z" fill="#000" opacity="0.08"/>
+  <!-- Stitch lines -->
+  <line x1="250" y1="200" x2="550" y2="200" stroke="#A89467" stroke-width="1" stroke-dasharray="4 3"/>
+  <line x1="220" y1="860" x2="580" y2="860" stroke="#A89467" stroke-width="1" stroke-dasharray="4 3"/>
+  <!-- Printed graphic -->
+  <g transform="translate(400,490)">
+    <text x="0" y="-40" text-anchor="middle" font-family="Georgia,serif" font-size="44" font-style="italic" fill="#0E2A47">Field</text>
+    <text x="0" y="0" text-anchor="middle" font-family="Georgia,serif" font-size="44" font-style="italic" fill="#0E2A47">&amp; Forest</text>
+    <line x1="-60" y1="20" x2="60" y2="20" stroke="#0E2A47" stroke-width="1"/>
+    <text x="0" y="50" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" letter-spacing="4" fill="#0E2A47">EST · 2020</text>
+  </g>
+  <!-- Canvas texture -->
+  <g opacity="0.18" stroke="#7A6B43" stroke-width="0.4">
+    <line x1="220" y1="300" x2="580" y2="300"/>
+    <line x1="220" y1="350" x2="580" y2="350"/>
+    <line x1="220" y1="400" x2="580" y2="400"/>
+    <line x1="220" y1="450" x2="580" y2="450"/>
+    <line x1="220" y1="500" x2="580" y2="500"/>
+    <line x1="220" y1="550" x2="580" y2="550"/>
+    <line x1="220" y1="600" x2="580" y2="600"/>
+    <line x1="220" y1="650" x2="580" y2="650"/>
+    <line x1="220" y1="700" x2="580" y2="700"/>
+    <line x1="220" y1="750" x2="580" y2="750"/>
+    <line x1="220" y1="800" x2="580" y2="800"/>
+  </g>
+</svg>

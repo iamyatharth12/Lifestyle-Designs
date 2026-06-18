@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Caps and headwear collection">
+  <defs>
+    <linearGradient id="bgC" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1A1A22"/><stop offset="100%" stop-color="#08080D"/></linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgC)"/>
+  <!-- Cap 1 -->
+  <g transform="translate(100,300)">
+    <path d="M0,200 Q150,140 300,200 L300,220 L0,220 Z" fill="#0E2A47"/>
+    <path d="M150,40 Q260,40 280,200 L20,200 Q40,40 150,40 Z" fill="#0E2A47"/>
+    <path d="M150,40 Q230,40 270,150 Q260,40 150,40 Z" fill="#1B3A5C"/>
+    <circle cx="150" cy="120" r="30" fill="#C8A45A"/>
+    <text x="150" y="128" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="28" fill="#0E2A47" font-weight="700">L</text>
+  </g>
+  <!-- Cap 2 -->
+  <g transform="translate(440,420)">
+    <path d="M0,200 Q150,140 300,200 L300,220 L0,220 Z" fill="#7A1F2B"/>
+    <path d="M150,40 Q260,40 280,200 L20,200 Q40,40 150,40 Z" fill="#7A1F2B"/>
+    <path d="M150,40 Q230,40 270,150 Q260,40 150,40 Z" fill="#9A2A38"/>
+    <text x="150" y="135" text-anchor="middle" font-family="Inter,sans-serif" font-weight="900" font-size="40" fill="#fff">SD</text>
+  </g>
+</svg>

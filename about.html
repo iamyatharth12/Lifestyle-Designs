@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Lifestyle Designs | Our Story &amp; Craft</title>
+  <meta name="description" content="The story of Lifestyle Designs — a boutique customization studio that grew from a single screen-printing table into a full-service apparel and personalization studio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400&display=swap" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <style>
+    .story-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: clamp(2rem, 5vw, 5rem); align-items: center; }
+    .story-grid--reverse { grid-template-columns: 1.2fr 1fr; }
+    .story-grid--reverse .story-grid__media { order: -1; }
+    .story-grid__media { aspect-ratio: 4/5; border-radius: var(--radius-lg); overflow: hidden; background: var(--ink); }
+    .story-grid__media img { width: 100%; height: 100%; object-fit: cover; }
+    @media (max-width: 1024px) { .story-grid, .story-grid--reverse { grid-template-columns: 1fr; } .story-grid--reverse .story-grid__media { order: 0; } }
+    .values { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 1px solid var(--line); border-radius: var(--radius-lg); overflow: hidden; }
+    .value { padding: 2.25rem 1.75rem; border-right: 1px solid var(--line); }
+    .value:last-child { border-right: 0; }
+    .value__num { font-family: var(--font-display); font-size: 2.4rem; color: var(--accent); }
+    .value__title { font-family: var(--font-display); font-size: 1.2rem; margin-top: 0.6rem; }
+    .value__desc { color: var(--muted); font-size: 0.9rem; margin-top: 0.4rem; }
+    @media (max-width: 880px) { .values { grid-template-columns: 1fr 1fr; } .value { border-bottom: 1px solid var(--line); } .value:nth-child(2) { border-right: 0; } .value:nth-child(3), .value:nth-child(4) { border-bottom: 0; } }
+  </style>
+</head>
+<body>
+
+<nav class="nav" aria-label="Primary">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo"><span class="nav__logo-mark">L</span><span>Lifestyle <span style="font-family:var(--font-display); font-style:italic; font-weight:400">Designs</span></span></a>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="process.html">Custom Process</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html" class="is-active">About</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="contact.html" class="btn btn--primary magnetic">Start your project <span class="arrow">→</span></a>
+      <button class="nav__menu-btn" aria-label="Open menu"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+    </div>
+  </div>
+</nav>
+
+<div class="drawer">
+  <div class="drawer__head">
+    <span class="nav__logo"><span class="nav__logo-mark">L</span><span>Lifestyle Designs</span></span>
+    <button class="drawer__close" aria-label="Close menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M6 18L18 6"/></svg></button>
+  </div>
+  <ul class="drawer__list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="process.html">Custom Process</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="testimonials.html">Testimonials</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="drawer__footer"><p>hello@lifestyledesigns.in<br>+91 98XXX XXXXX</p></div>
+</div>
+
+<!-- ============================ PAGE HERO ============================ -->
+<section class="page-hero" style="background: var(--ink); color:#fff; border-bottom: 1px solid rgba(255,255,255,0.08);">
+  <div class="container">
+    <div class="page-hero__inner">
+      <div>
+        <div class="page-hero__crumb reveal" style="color: rgba(255,255,255,0.6);">
+          <a href="index.html" style="color: rgba(255,255,255,0.6);">Home</a><span>/</span><span style="opacity: 0.4;">About</span>
+        </div>
+        <h1 class="page-hero__title reveal" data-reveal-delay="100" style="color:#fff">A small studio, <span class="serif-italic" style="color:#C8A45A">obsessed with craft.</span></h1>
+      </div>
+      <p class="lede reveal" data-reveal-delay="200" style="color:#B9B9C4">We started in 2014 with a single screen-printing table, a borrowed embroidery machine, and a list of friends who needed custom tees. A decade later — same obsession, slightly larger studio.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ STORY 1 ============================ -->
+<section class="section">
+  <div class="container">
+    <div class="story-grid">
+      <div class="story-grid__media reveal"><img src="assets/images/atelier-hero.svg" alt="Inside the Lifestyle Designs studio"/></div>
+      <div class="reveal" data-reveal-delay="100">
+        <span class="eyebrow">Our beginning</span>
+        <h2 style="margin-top:1rem; font-size: clamp(2rem, 3.6vw, 3rem)">From a garage in Indiranagar to studios across India.</h2>
+        <p style="margin-top:1.25rem; color: var(--slate); max-width: 50ch;">Lifestyle Designs was founded by two friends — a graphic designer and a textile engineer — who believed India deserved a customization studio that took both craft and design seriously. We opened our first 200 sq. ft. workshop in 2014 with a single promise: <em style="font-family: var(--font-display); color: var(--ink);">every piece will be made as if our name is stitched into it.</em></p>
+        <p style="margin-top:1.25rem; color: var(--slate); max-width: 50ch;">A decade later, we've outgrown two studios and now operate from a 6,000 sq. ft. atelier with an in-house team of designers, printers, embroiderers and tailors. We've shipped to 18 countries. But our promise hasn't changed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ STORY 2 ============================ -->
+<section class="section section--soft">
+  <div class="container">
+    <div class="story-grid story-grid--reverse">
+      <div class="story-grid__media reveal"><img src="assets/images/workshop-wide.svg" alt="Our studio workshop"/></div>
+      <div class="reveal" data-reveal-delay="100">
+        <span class="eyebrow">Our craft</span>
+        <h2 style="margin-top:1rem; font-size: clamp(2rem, 3.6vw, 3rem)">In-house, end-to-end, <span class="serif-italic" style="color: var(--brand)">obsessively.</span></h2>
+        <p style="margin-top:1.25rem; color: var(--slate); max-width: 50ch;">Design, sampling, screen printing, DTG, embroidery, stitching, finishing, packing — every step happens under our roof. We don't outsource production, and we don't hide behind a sales team. When you work with us, you work with the people making your product.</p>
+        <ul style="list-style:none; padding:0; margin-top: 2rem; display:flex; flex-direction:column; gap: 0.75rem; max-width: 36rem;">
+          <li style="display:flex; gap: 0.75rem; align-items:center; color: var(--slate);">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C8A45A" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            22-member team across design, production and finishing
+          </li>
+          <li style="display:flex; gap: 0.75rem; align-items:center; color: var(--slate);">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C8A45A" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            8,000 stitches-per-minute embroidery machines
+          </li>
+          <li style="display:flex; gap: 0.75rem; align-items:center; color: var(--slate);">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C8A45A" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            Pantone-certified colour matching on every print
+          </li>
+          <li style="display:flex; gap: 0.75rem; align-items:center; color: var(--slate);">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C8A45A" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+            Three-stage quality control on every order
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ VALUES ============================ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal" style="max-width: 42rem;">
+      <span class="eyebrow">What we stand for</span>
+      <h2 class="section-head__title">Four principles that <span class="accent">guide everything.</span></h2>
+    </div>
+    <div class="values reveal">
+      <div class="value">
+        <div class="value__num">01</div>
+        <div class="value__title">Craft over speed</div>
+        <p class="value__desc">We refuse to ship anything we'd be embarrassed to put our name on.</p>
+      </div>
+      <div class="value">
+        <div class="value__num">02</div>
+        <div class="value__title">Honest materials</div>
+        <p class="value__desc">The fabrics we choose, the inks we use — everything is sourced with intent.</p>
+      </div>
+      <div class="value">
+        <div class="value__num">03</div>
+        <div class="value__title">People first</div>
+        <p class="value__desc">A single point of contact for every project — no scripts, no call centres.</p>
+      </div>
+      <div class="value">
+        <div class="value__num">04</div>
+        <div class="value__title">Long-term partners</div>
+        <p class="value__desc">Many of our clients have been with us for 5+ years. That says everything.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TIMELINE ============================ -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" style="color:#C8A45A">Milestones</span>
+      <h2 class="section-head__title" style="color:#fff">A decade of <span class="accent" style="color:#C8A45A; font-style:italic">growing carefully.</span></h2>
+    </div>
+    <div style="display:grid; grid-template-columns: repeat(4, 1fr); gap: 0; border-top: 1px solid rgba(255,255,255,0.08);" class="reveal">
+      <div style="padding: 2rem 1.25rem; border-right: 1px solid rgba(255,255,255,0.08);">
+        <div style="font-family: var(--font-display); font-size: 2.5rem; color: #C8A45A;">2014</div>
+        <h4 style="font-family: var(--font-display); font-weight: 500; color: #fff; margin-top: 0.5rem; font-size: 1.2rem;">Founded</h4>
+        <p style="color: #9E9EAA; margin-top: 0.4rem; font-size: 0.92rem;">A 200 sq. ft. garage studio in Indiranagar.</p>
+      </div>
+      <div style="padding: 2rem 1.25rem; border-right: 1px solid rgba(255,255,255,0.08);">
+        <div style="font-family: var(--font-display); font-size: 2.5rem; color: #C8A45A;">2018</div>
+        <h4 style="font-family: var(--font-display); font-weight: 500; color: #fff; margin-top: 0.5rem; font-size: 1.2rem;">First 1,000-piece order</h4>
+        <p style="color: #9E9EAA; margin-top: 0.4rem; font-size: 0.92rem;">A school uniform programme that taught us scale.</p>
+      </div>
+      <div style="padding: 2rem 1.25rem; border-right: 1px solid rgba(255,255,255,0.08);">
+        <div style="font-family: var(--font-display); font-size: 2.5rem; color: #C8A45A;">2021</div>
+        <h4 style="font-family: var(--font-display); font-weight: 500; color: #fff; margin-top: 0.5rem; font-size: 1.2rem;">New atelier</h4>
+        <p style="color: #9E9EAA; margin-top: 0.4rem; font-size: 0.92rem;">Moved into a 6,000 sq. ft. purpose-built studio.</p>
+      </div>
+      <div style="padding: 2rem 1.25rem;">
+        <div style="font-family: var(--font-display); font-size: 2.5rem; color: #C8A45A;">2026</div>
+        <h4 style="font-family: var(--font-display); font-weight: 500; color: #fff; margin-top: 0.5rem; font-size: 1.2rem;">Today</h4>
+        <p style="color: #9E9EAA; margin-top: 0.4rem; font-size: 0.92rem;">2,400+ brands served, 18 countries shipped to.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CTA ============================ -->
+<section class="section">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <div>
+        <span class="eyebrow" style="color:#C8A45A">Visit our studio</span>
+        <h2 style="margin-top:1rem; font-size: clamp(2rem, 4vw, 3rem)">Coffee's on us.</h2>
+        <p style="margin-top:1rem; max-width: 50ch;">Want to see the machines, feel the fabrics, and meet the team? Our studio in Indiranagar is open by appointment — write to us and we'll find a time.</p>
+      </div>
+      <div class="cta-banner__ctas">
+        <a href="contact.html" class="btn btn--accent btn--lg magnetic">Book a visit <span class="arrow">→</span></a>
+        <a href="process.html" class="btn btn--ghost btn--lg" style="border-color:rgba(255,255,255,0.18); color:#fff">See our process</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand"><span class="nav__logo-mark" style="background:#fff; color:var(--ink)">L</span><span>Lifestyle Designs</span></div>
+        <p class="footer__about">A boutique customization studio crafting premium uniforms, printed apparel, and personalized products for businesses, schools and individuals.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h2.5l.5-3H13V9c0-.9.3-1.5 1.6-1.5H16V5h-2.4C11.4 5 10 6.3 10 8.6V11H8v3h2v8h3z"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 003.6 17.4L2 22l4.7-1.5A11 11 0 1020.5 3.5zM12 20a8 8 0 01-4.1-1.1l-.3-.2-2.8.9.9-2.7-.2-.3A8 8 0 1112 20zm4.6-6c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1A6.4 6.4 0 018.6 13a6 6 0 01-1.3-1.6c-.1-.2 0-.4.1-.6l.5-.6c.2-.2.2-.3.3-.5 0-.2 0-.4-.1-.5l-1-2.2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5 0-.7.3a3 3 0 00-.9 2.2c0 1.3 1 2.5 1.1 2.7.1.2 2 3 4.8 4.2 1.7.7 2.4.7 3.3.6.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.2-.2-.3-.5-.4z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer__col"><h5>Studio</h5><ul><li><a href="about.html">About us</a></li><li><a href="process.html">Custom process</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="testimonials.html">Testimonials</a></li></ul></div>
+      <div class="footer__col"><h5>Collections</h5><ul><li><a href="products.html#corporate">Corporate uniforms</a></li><li><a href="products.html#school">School uniforms</a></li><li><a href="products.html#tshirts">Custom t-shirts</a></li><li><a href="products.html#bags">Printed bags</a></li><li><a href="products.html#events">Event merchandise</a></li></ul></div>
+      <div class="footer__col"><h5>Contact</h5><ul><li>hello@lifestyledesigns.in</li><li>+91 98XXX XXXXX</li><li>Studio No. 14, Indiranagar</li><li>Bengaluru, India</li></ul></div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Lifestyle Designs. All rights reserved.</span>
+      <span>Crafted in Bengaluru · Shipped worldwide</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/919800000000" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 003.6 17.4L2 22l4.7-1.5A11 11 0 1020.5 3.5zM12 20a8 8 0 01-4.1-1.1l-.3-.2-2.8.9.9-2.7-.2-.3A8 8 0 1112 20zm4.6-6c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1A6.4 6.4 0 018.6 13a6 6 0 01-1.3-1.6c-.1-.2 0-.4.1-.6l.5-.6c.2-.2.2-.3.3-.5 0-.2 0-.4-.1-.5l-1-2.2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5 0-.7.3a3 3 0 00-.9 2.2c0 1.3 1 2.5 1.1 2.7.1.2 2 3 4.8 4.2 1.7.7 2.4.7 3.3.6.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.2-.2-.3-.5-.4z"/></svg></a>
+<script src="js/app.js"></script>
+</body>
+</html>

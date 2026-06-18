@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lifestyle Designs — Premium Custom Apparel &amp; Personalization Studio</title>
+  <meta name="description" content="Lifestyle Designs is a boutique customization studio crafting premium uniforms, printed apparel, custom bags and personalized products for businesses, schools and individuals." />
+  <meta name="theme-color" content="#0B0B0F" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400&display=swap" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 60'%3E%3Ccircle cx='30' cy='30' r='28' fill='%230B0B0F'/%3E%3Ctext x='30' y='40' text-anchor='middle' font-family='Georgia, serif' font-style='italic' font-size='28' fill='white'%3EL%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+
+<!-- ============================ NAVIGATION ============================ -->
+<nav class="nav" aria-label="Primary">
+  <div class="container nav__inner">
+    <a href="index.html" class="nav__logo" aria-label="Lifestyle Designs home">
+      <span class="nav__logo-mark">L</span>
+      <span>Lifestyle <span style="font-family:var(--font-display); font-style:italic; font-weight:400">Designs</span></span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="index.html" class="is-active">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="process.html">Custom Process</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="testimonials.html">Testimonials</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav__cta">
+      <a href="contact.html" class="btn btn--primary magnetic">Start your project <span class="arrow" aria-hidden="true">→</span></a>
+      <button class="nav__menu-btn" aria-label="Open menu">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<div class="drawer" aria-hidden="true">
+  <div class="drawer__head">
+    <span class="nav__logo"><span class="nav__logo-mark">L</span><span>Lifestyle Designs</span></span>
+    <button class="drawer__close" aria-label="Close menu"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M6 18L18 6"/></svg></button>
+  </div>
+  <ul class="drawer__list">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="process.html">Custom Process</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="testimonials.html">Testimonials</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="drawer__footer">
+    <p>hello@lifestyledesigns.in<br>+91 98XXX XXXXX</p>
+  </div>
+</div>
+
+<!-- ============================ HERO ============================ -->
+<header class="hero">
+  <div class="container hero__grid">
+    <div class="hero__copy">
+      <span class="eyebrow reveal">Boutique Customization Studio · Est. 2014</span>
+      <h1 class="hero__title reveal" data-reveal-delay="100">
+        Designed around<br/>your <span class="accent">identity.</span>
+      </h1>
+      <p class="hero__sub reveal" data-reveal-delay="200">
+        Premium custom apparel, uniforms, printed bags and personalized
+        products — crafted with the precision of an atelier and the speed
+        of a modern studio.
+      </p>
+      <div class="hero__ctas reveal" data-reveal-delay="300">
+        <a href="contact.html" class="btn btn--primary btn--lg magnetic">Start your custom design <span class="arrow">→</span></a>
+        <a href="portfolio.html" class="btn btn--ghost btn--lg">View our work</a>
+      </div>
+      <div class="hero__meta reveal" data-reveal-delay="400">
+        <div class="hero__meta-item">
+          <span class="v" data-counter="2400" data-suffix="+">0</span>
+          <span class="l">Brands served</span>
+        </div>
+        <div class="hero__meta-item">
+          <span class="v" data-counter="4.9" data-decimals="1">0</span>
+          <span class="l">Avg. rating</span>
+        </div>
+        <div class="hero__meta-item">
+          <span class="v" data-counter="100" data-suffix="%">0</span>
+          <span class="l">In-house production</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero__collage reveal" data-reveal-delay="300">
+      <span class="hero__badge"><span class="dot"></span> Made in our studio</span>
+      <div class="tile t1"><img src="assets/images/atelier-hero.svg" alt="Studio workshop" /></div>
+      <div class="tile t2"><img src="assets/images/shirt-navy.svg" alt="Custom embroidered polo" /></div>
+      <div class="tile t3"><img src="assets/images/embroidery-detail.svg" alt="Embroidery detail" /></div>
+      <div class="tile t4"><img src="assets/images/portfolio-display.svg" alt="Display of finished apparel" /></div>
+      <div class="hero__floating hero__floating--tl">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+        <span>4.9 · Google reviews</span>
+      </div>
+      <div class="hero__floating hero__floating--br">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+        <span>In-house embroidery</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============================ MARQUEE ============================ -->
+<section class="marquee" aria-hidden="true">
+  <div class="marquee__track">
+    <span>Corporate Uniforms <span class="dot"></span></span>
+    <span>School Uniforms <span class="dot"></span></span>
+    <span>Custom T-Shirts <span class="dot"></span></span>
+    <span>Printed Bags <span class="dot"></span></span>
+    <span>Event Merchandise <span class="dot"></span></span>
+    <span>Embroidery <span class="dot"></span></span>
+    <span>Personalized Gifts <span class="dot"></span></span>
+    <span>Corporate Uniforms <span class="dot"></span></span>
+    <span>School Uniforms <span class="dot"></span></span>
+    <span>Custom T-Shirts <span class="dot"></span></span>
+    <span>Printed Bags <span class="dot"></span></span>
+    <span>Event Merchandise <span class="dot"></span></span>
+    <span>Embroidery <span class="dot"></span></span>
+    <span>Personalized Gifts <span class="dot"></span></span>
+  </div>
+</section>
+
+<!-- ============================ PRODUCTS PREVIEW ============================ -->
+<section class="section section--soft" id="collections">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Collections</span>
+      <h2 class="section-head__title">A studio for <span class="accent">every kind of identity.</span></h2>
+      <p class="lede">From a hotel chain's 800-staff rollout to a single personalized gift — we treat every order with the same standard of craftsmanship.</p>
+    </div>
+
+    <div class="products">
+      <article class="product product--lg reveal">
+        <div class="product__img"><img src="assets/images/uniform-corporate.svg" alt="Corporate uniform blazer" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">01 / Collection</span>
+          <h3 class="product__title">Corporate Uniforms</h3>
+          <p class="product__meta">Polos · Blazers · Hospitality · Front-of-house</p>
+          <a href="products.html#corporate" class="product__link">Explore <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--md reveal" data-reveal-delay="150">
+        <div class="product__img"><img src="assets/images/uniform-school.svg" alt="School uniform polo" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">02 / Collection</span>
+          <h3 class="product__title">School Uniforms</h3>
+          <p class="product__meta">Polos · Crests · House colours</p>
+          <a href="products.html#school" class="product__link">Explore <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--half reveal">
+        <div class="product__img"><img src="assets/images/tee-white.svg" alt="Custom printed t-shirts" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">03 / Collection</span>
+          <h3 class="product__title">Custom T-Shirts</h3>
+          <p class="product__meta">DTG · Screen print · Discharge inks</p>
+          <a href="products.html#tshirts" class="product__link">Explore <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--half reveal" data-reveal-delay="150">
+        <div class="product__img"><img src="assets/images/event-merch.svg" alt="Event merchandise" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">04 / Collection</span>
+          <h3 class="product__title">Event Merchandise</h3>
+          <p class="product__meta">Concerts · Marathons · Conferences</p>
+          <a href="products.html#events" class="product__link">Explore <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--third reveal">
+        <div class="product__img"><img src="assets/images/bag-canvas.svg" alt="Printed canvas bag" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">05 / Collection</span>
+          <h3 class="product__title">Printed Bags</h3>
+          <p class="product__meta">Tote · Drawstring · Pouches</p>
+          <a href="products.html#bags" class="product__link">Explore <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--third reveal" data-reveal-delay="150">
+        <div class="product__img"><img src="assets/images/portfolio-hoodies.svg" alt="Custom hoodies" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">06 / Collection</span>
+          <h3 class="product__title">Hoodies &amp; Sweats</h3>
+          <p class="product__meta">Heavyweight fleece · Embroidered crests</p>
+          <a href="products.html#hoodies" class="product__link">Explore <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="product product--third reveal" data-reveal-delay="300">
+        <div class="product__img"><img src="assets/images/personalized-mug.svg" alt="Personalized gift" /></div>
+        <div class="product__shade"></div>
+        <div class="product__body">
+          <span class="product__num">07 / Collection</span>
+          <h3 class="product__title">Personalized Gifts</h3>
+          <p class="product__meta">Mugs · Caps · Stationery</p>
+          <a href="products.html#gifts" class="product__link">Explore <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PROCESS PREVIEW ============================ -->
+<section class="section">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">The Custom Process</span>
+      <h2 class="section-head__title">From idea to <span class="accent">finished product</span> — handled with care.</h2>
+      <p class="lede">A four-step journey designed for clarity, speed, and craftsmanship. You'll work with the same studio team from the first sketch to the final stitch.</p>
+    </div>
+
+    <div class="process">
+      <div class="step reveal">
+        <div class="step__num">01</div>
+        <h3 class="step__title">Share Your Idea</h3>
+        <p class="step__desc">Tell us the story, the brand, the people. We listen first, then translate intent into design direction.</p>
+        <span class="step__tag">Brief &amp; moodboard</span>
+      </div>
+      <div class="step reveal" data-reveal-delay="100">
+        <div class="step__num">02</div>
+        <h3 class="step__title">Design &amp; Personalize</h3>
+        <p class="step__desc">Choose fabrics, fits, prints and embroidery. We mock up every detail until it feels unmistakably yours.</p>
+        <span class="step__tag">Sampling &amp; proofs</span>
+      </div>
+      <div class="step reveal" data-reveal-delay="200">
+        <div class="step__num">03</div>
+        <h3 class="step__title">Craft &amp; Produce</h3>
+        <p class="step__desc">In-house screen printing, embroidery and stitching — every piece is checked by hand before it leaves the studio.</p>
+        <span class="step__tag">QC at every step</span>
+      </div>
+      <div class="step reveal" data-reveal-delay="300">
+        <div class="step__num">04</div>
+        <h3 class="step__title">Delivered With Pride</h3>
+        <p class="step__desc">Packed with care and shipped to your door, your office, or your event venue — on time, every time.</p>
+        <span class="step__tag">Doorstep delivery</span>
+      </div>
+    </div>
+
+    <div class="reveal" style="text-align:center; margin-top: 3.5rem;">
+      <a href="process.html" class="btn btn--ghost magnetic">See the full process <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ WHY US ============================ -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow" style="color:#C8A45A">Why studios &amp; teams choose us</span>
+      <h2 class="section-head__title" style="color:#fff">Craft you can <span class="accent" style="color:#C8A45A; font-style:italic">feel</span>. Service you can trust.</h2>
+      <p class="lede" style="color:#B9B9C4">Every order is handled end-to-end in our studio — no middlemen, no outsourcing, no surprises.</p>
+    </div>
+
+    <div class="why-grid">
+      <div class="why reveal" style="background:#13131A; border-color:rgba(255,255,255,0.08)">
+        <div class="why__icon" style="background:rgba(200,164,90,0.12); color:#C8A45A"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h18M3 12h18M3 17h12"/></svg></div>
+        <h3 class="why__title" style="color:#fff">Premium fabrics</h3>
+        <p style="color:#9E9EAA">Combed cotton, performance blends and heavyweight fleece sourced from certified mills — never random stock.</p>
+      </div>
+      <div class="why reveal" data-reveal-delay="100" style="background:#13131A; border-color:rgba(255,255,255,0.08)">
+        <div class="why__icon" style="background:rgba(200,164,90,0.12); color:#C8A45A"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+        <h3 class="why__title" style="color:#fff">Fast turnaround</h3>
+        <p style="color:#9E9EAA">Rush orders in 48 hours. Standard production in 7–10 days. We protect your timeline like it's our own.</p>
+      </div>
+      <div class="why reveal" data-reveal-delay="200" style="background:#13131A; border-color:rgba(255,255,255,0.08)">
+        <div class="why__icon" style="background:rgba(200,164,90,0.12); color:#C8A45A"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6L9 17l-5-5"/></svg></div>
+        <h3 class="why__title" style="color:#fff">Attention to detail</h3>
+        <p style="color:#9E9EAA">Crisp embroidery, accurate Pantone matches, even stitching — every garment is inspected before packing.</p>
+      </div>
+      <div class="why reveal" data-reveal-delay="300" style="background:#13131A; border-color:rgba(255,255,255,0.08)">
+        <div class="why__icon" style="background:rgba(200,164,90,0.12); color:#C8A45A"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 11a4 4 0 10-8 0M3 21v-2a4 4 0 014-4h10a4 4 0 014 4v2"/></svg></div>
+        <h3 class="why__title" style="color:#fff">Personalised service</h3>
+        <p style="color:#9E9EAA">A single point of contact who knows your project. No call-centre queues, no automated replies.</p>
+      </div>
+      <div class="why reveal" data-reveal-delay="400" style="background:#13131A; border-color:rgba(255,255,255,0.08)">
+        <div class="why__icon" style="background:rgba(200,164,90,0.12); color:#C8A45A"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3v18h18"/><path d="M7 15l4-4 4 4 5-6"/></svg></div>
+        <h3 class="why__title" style="color:#fff">Scalable production</h3>
+        <p style="color:#9E9EAA">From a single personalised gift to 5,000 uniform pieces — the same quality standard at every volume.</p>
+      </div>
+      <div class="why reveal" data-reveal-delay="500" style="background:#13131A; border-color:rgba(255,255,255,0.08)">
+        <div class="why__icon" style="background:rgba(200,164,90,0.12); color:#C8A45A"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l9 4-9 4-9-4 9-4z"/><path d="M3 12l9 4 9-4M3 18l9 4 9-4"/></svg></div>
+        <h3 class="why__title" style="color:#fff">100% in-house</h3>
+        <p style="color:#9E9EAA">Design, sampling, printing, embroidery and finishing — all under one roof, all under our quality control.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ STATS ============================ -->
+<section class="section--tight">
+  <div class="container">
+    <div class="stat-row">
+      <div class="stat reveal">
+        <div class="stat__num" data-counter="2400" data-suffix="+">0</div>
+        <div class="stat__lbl">Brands &amp; studios served</div>
+      </div>
+      <div class="stat reveal" data-reveal-delay="100">
+        <div class="stat__num" data-counter="180000" data-suffix="+">0</div>
+        <div class="stat__lbl">Pieces crafted</div>
+      </div>
+      <div class="stat reveal" data-reveal-delay="200">
+        <div class="stat__num" data-counter="98" data-suffix="%">0</div>
+        <div class="stat__lbl">Repeat &amp; referral clients</div>
+      </div>
+      <div class="stat reveal" data-reveal-delay="300">
+        <div class="stat__num" data-counter="4.9" data-decimals="1">0</div>
+        <div class="stat__lbl">Average rating</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ TESTIMONIALS ============================ -->
+<section class="section section--soft">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Trusted by studios, schools &amp; businesses</span>
+      <h2 class="section-head__title">What our clients <span class="accent">say.</span></h2>
+      <p class="lede">A few words from the people we've had the privilege to dress, equip and surprise.</p>
+    </div>
+
+    <div class="grid" style="grid-template-columns: repeat(3, 1fr);">
+      <article class="t-card reveal">
+        <span class="t-card__source">Google review</span>
+        <div class="t-card__stars" aria-label="5 out of 5">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+        </div>
+        <p class="t-card__quote">We ordered 600 custom polos for our hotel staff and every single piece looked perfect. The embroidery was crisp, the fit was consistent, and the team was an absolute pleasure to work with.</p>
+        <div class="t-card__who">
+          <div class="t-card__avatar">AR</div>
+          <div>
+            <div class="t-card__name">Anjali Rao</div>
+            <div class="t-card__role">Operations, Maison Hotels</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="t-card reveal" data-reveal-delay="100">
+        <span class="t-card__source">Google review</span>
+        <div class="t-card__stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+        </div>
+        <p class="t-card__quote">Lifestyle Designs handled our school's annual hoodie programme for three years running. Parents love the quality, kids love the design, and the team always goes the extra mile.</p>
+        <div class="t-card__who">
+          <div class="t-card__avatar">PM</div>
+          <div>
+            <div class="t-card__name">Priya Menon</div>
+            <div class="t-card__role">Principal, Greenwood High</div>
+          </div>
+        </div>
+      </article>
+
+      <article class="t-card reveal" data-reveal-delay="200">
+        <span class="t-card__source">Google review</span>
+        <div class="t-card__stars">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 16.6 5.7 21l2.3-7.2-6-4.4h7.6z"/></svg>
+        </div>
+        <p class="t-card__quote">We needed 1,200 marathon tees in a week — and they delivered two days early. Pantone match was spot on. This is the studio you want for serious work.</p>
+        <div class="t-card__who">
+          <div class="t-card__avatar">VK</div>
+          <div>
+            <div class="t-card__name">Vikram Kapoor</div>
+            <div class="t-card__role">Founder, Run Forward</div>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="reveal" style="text-align:center; margin-top: 3rem;">
+      <a href="testimonials.html" class="btn btn--ghost magnetic">Read more stories <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CTA BANNER ============================ -->
+<section class="section">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <div>
+        <span class="eyebrow" style="color:#C8A45A">Your project, our craft</span>
+        <h2 style="margin-top:1rem; font-size: clamp(2rem, 4vw, 3rem)">Start your custom design journey.</h2>
+        <p style="margin-top:1rem; max-width: 50ch;">Tell us what you have in mind — a brief, a mood, or even a single sentence is enough to get started. We'll get back to you within 24 hours.</p>
+      </div>
+      <div class="cta-banner__ctas">
+        <a href="contact.html" class="btn btn--accent btn--lg magnetic">Start your project <span class="arrow">→</span></a>
+        <a href="https://wa.me/919800000000" class="btn btn--ghost btn--lg" style="border-color:rgba(255,255,255,0.18); color:#fff">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ FOOTER ============================ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">
+          <span class="nav__logo-mark" style="background:#fff; color:var(--ink)">L</span>
+          <span>Lifestyle Designs</span>
+        </div>
+        <p class="footer__about">A boutique customization studio crafting premium uniforms, printed apparel, and personalized products for businesses, schools and individuals.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h2.5l.5-3H13V9c0-.9.3-1.5 1.6-1.5H16V5h-2.4C11.4 5 10 6.3 10 8.6V11H8v3h2v8h3z"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 003.6 17.4L2 22l4.7-1.5A11 11 0 1020.5 3.5zM12 20a8 8 0 01-4.1-1.1l-.3-.2-2.8.9.9-2.7-.2-.3A8 8 0 1112 20zm4.6-6c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1A6.4 6.4 0 018.6 13a6 6 0 01-1.3-1.6c-.1-.2 0-.4.1-.6l.5-.6c.2-.2.2-.3.3-.5 0-.2 0-.4-.1-.5l-1-2.2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5 0-.7.3a3 3 0 00-.9 2.2c0 1.3 1 2.5 1.1 2.7.1.2 2 3 4.8 4.2 1.7.7 2.4.7 3.3.6.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.2-.2-.3-.5-.4z"/></svg></a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h5>Studio</h5>
+        <ul>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="process.html">Custom process</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Collections</h5>
+        <ul>
+          <li><a href="products.html#corporate">Corporate uniforms</a></li>
+          <li><a href="products.html#school">School uniforms</a></li>
+          <li><a href="products.html#tshirts">Custom t-shirts</a></li>
+          <li><a href="products.html#bags">Printed bags</a></li>
+          <li><a href="products.html#events">Event merchandise</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h5>Contact</h5>
+        <ul>
+          <li>hello@lifestyledesigns.in</li>
+          <li>+91 98XXX XXXXX</li>
+          <li>Studio No. 14, Indiranagar</li>
+          <li>Bengaluru, India</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span data-year>2026</span> Lifestyle Designs. All rights reserved.</span>
+      <span>Crafted in Bengaluru · Shipped worldwide</span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/919800000000" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 3.5A11 11 0 003.6 17.4L2 22l4.7-1.5A11 11 0 1020.5 3.5zM12 20a8 8 0 01-4.1-1.1l-.3-.2-2.8.9.9-2.7-.2-.3A8 8 0 1112 20zm4.6-6c-.3-.1-1.6-.8-1.8-.9-.2-.1-.4-.1-.6.1l-.9 1.1c-.2.2-.3.2-.6.1A6.4 6.4 0 018.6 13a6 6 0 01-1.3-1.6c-.1-.2 0-.4.1-.6l.5-.6c.2-.2.2-.3.3-.5 0-.2 0-.4-.1-.5l-1-2.2c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5 0-.7.3a3 3 0 00-.9 2.2c0 1.3 1 2.5 1.1 2.7.1.2 2 3 4.8 4.2 1.7.7 2.4.7 3.3.6.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.2-.2-.3-.5-.4z"/></svg>
+</a>
+
+<script src="js/app.js"></script>
+</body>
+</html>

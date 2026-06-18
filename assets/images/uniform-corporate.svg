@@ -1,0 +1,44 @@
+<!-- Corporate uniform – charcoal blazer mockup -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Charcoal corporate uniform blazer with embroidered logo">
+  <defs>
+    <linearGradient id="bgCorp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1B1B22"/>
+      <stop offset="100%" stop-color="#0B0B0F"/>
+    </linearGradient>
+    <linearGradient id="blazer" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A2A33"/>
+      <stop offset="100%" stop-color="#16161C"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgCorp)"/>
+  <!-- Surface -->
+  <ellipse cx="400" cy="900" rx="320" ry="40" fill="#fff" opacity="0.05"/>
+  <!-- Blazer body -->
+  <path d="M160,200 L300,170 L340,250 L400,290 L460,250 L500,170 L640,200 L660,880 L140,880 Z" fill="url(#blazer)"/>
+  <!-- Lapel left -->
+  <path d="M340,250 L300,170 L260,200 L320,400 Z" fill="#0E0E13"/>
+  <!-- Lapel right -->
+  <path d="M460,250 L500,170 L540,200 L480,400 Z" fill="#0E0E13"/>
+  <!-- Inner collar V -->
+  <path d="M340,250 L400,290 L460,250 L400,360 Z" fill="#1F1F26"/>
+  <!-- Buttons -->
+  <circle cx="400" cy="500" r="6" fill="#C8A45A"/>
+  <circle cx="400" cy="600" r="6" fill="#C8A45A"/>
+  <!-- Pocket -->
+  <line x1="240" y1="640" x2="320" y2="640" stroke="#0E0E13" stroke-width="1"/>
+  <line x1="480" y1="640" x2="560" y2="640" stroke="#0E0E13" stroke-width="1"/>
+  <!-- Embroidery on chest -->
+  <g transform="translate(265,330)">
+    <text x="0" y="0" text-anchor="middle" font-family="Georgia,serif" font-size="13" font-style="italic" fill="#C8A45A" font-weight="500">Maison</text>
+    <line x1="-15" y1="6" x2="15" y2="6" stroke="#C8A45A" stroke-width="1"/>
+    <text x="0" y="18" text-anchor="middle" font-family="Inter,sans-serif" font-size="7" letter-spacing="2" fill="#C8A45A">HOTEL · GROUP</text>
+  </g>
+  <!-- Texture -->
+  <g opacity="0.06" stroke="#fff" stroke-width="0.5" fill="none">
+    <path d="M160,400 Q400,420 640,400"/>
+    <path d="M160,500 Q400,520 640,500"/>
+    <path d="M160,600 Q400,620 640,600"/>
+    <path d="M160,700 Q400,720 640,700"/>
+    <path d="M160,800 Q400,820 640,800"/>
+  </g>
+</svg>

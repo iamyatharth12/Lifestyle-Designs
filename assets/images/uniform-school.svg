@@ -1,0 +1,37 @@
+<!-- School uniform polo mockup in maroon -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Maroon school uniform polo with crest">
+  <defs>
+    <linearGradient id="bgSchool" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8F4ED"/>
+      <stop offset="100%" stop-color="#EAE0CB"/>
+    </linearGradient>
+    <linearGradient id="shirtMaroon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7A1F2B"/>
+      <stop offset="100%" stop-color="#5A141D"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgSchool)"/>
+  <ellipse cx="400" cy="790" rx="270" ry="36" fill="#000" opacity="0.1"/>
+  <!-- Polo shape -->
+  <path d="M200,260 L280,210 L320,200 Q400,180 480,200 L520,210 L600,260 L660,340 L600,380 L600,820 L200,820 L200,380 L140,340 Z" fill="url(#shirtMaroon)"/>
+  <!-- Collar -->
+  <path d="M320,200 L400,250 L480,200 L470,230 L400,280 L330,230 Z" fill="#4A0E16"/>
+  <path d="M320,200 L370,260 L355,275 L300,225 Z" fill="#9A2A38" opacity="0.5"/>
+  <path d="M480,200 L430,260 L445,275 L500,225 Z" fill="#9A2A38" opacity="0.5"/>
+  <!-- Placket -->
+  <line x1="400" y1="250" x2="400" y2="480" stroke="#4A0E16" stroke-width="2"/>
+  <!-- Crest -->
+  <g transform="translate(400,440)">
+    <path d="M-40,0 L-40,-50 Q0,-65 40,-50 L40,0 Q40,30 0,55 Q-40,30 -40,0 Z" fill="#C8A45A" stroke="#7A1F2B" stroke-width="2"/>
+    <text x="0" y="-22" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-style="italic" fill="#7A1F2B" font-weight="600">St.</text>
+    <text x="0" y="-2" text-anchor="middle" font-family="Georgia,serif" font-size="14" font-style="italic" fill="#7A1F2B" font-weight="600">Andrew's</text>
+    <line x1="-20" y1="6" x2="20" y2="6" stroke="#7A1F2B" stroke-width="1"/>
+    <text x="0" y="22" text-anchor="middle" font-family="Inter,sans-serif" font-size="8" letter-spacing="2" fill="#7A1F2B">1887</text>
+  </g>
+  <!-- Fabric texture -->
+  <g opacity="0.08" stroke="#fff" stroke-width="0.5" fill="none">
+    <path d="M200,540 Q400,560 600,540"/>
+    <path d="M200,620 Q400,640 600,620"/>
+    <path d="M200,700 Q400,720 600,700"/>
+  </g>
+</svg>
